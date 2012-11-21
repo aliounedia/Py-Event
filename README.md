@@ -1,4 +1,0 @@
-Py-Event
-========
-
-Py-Event

@@ -1,0 +1,21 @@
+{
+  { "Event" :'test'
+    "type"  :"DB"
+    "action": "select"
+    "args"  :{
+		 "db" :"MyDb",
+		 "table" :"MyTable"
+		
+	     } 
+  }
+  { "Event" :'test'
+    "type"  :"Ast"
+    "action": "Lock"
+    "args"  :{
+		 "type" :"2",
+		 "action" :"MyAction"
+		
+	     } 
+  }
+
+}
